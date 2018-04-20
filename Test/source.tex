@@ -1,4 +1,61 @@
 \documentclass[12pt]{article}
+\usepackage{geometry}
+\usepackage{tabularx}
+\newcolumntype{Z}{>{\centering\arraybackslash}X}
+\newcolumntype{Y}{>{\hsize=0.7\hsize}Z}
+\newcolumntype{T}{>{\hsize=0.3\hsize}Z}
+\newcolumntype{F}{>{\hsize=0.2\hsize}X}
+\geometry{
+  top=5mm,
+  left=5mm,
+  right=5mm,
+}
 \begin{document}
-asdf
+\begin{center}
+  \begin{tabularx}{\linewidth}{|Z|}
+    \hline
+    \textbf{Test 03 - Deadlocks und Scheduling - Betriebssysteme}\\%HEADER
+    \hline
+        {
+          \begin{tabularx}{\linewidth}{Y|T|Y|T}
+            \textbf{Erstellende Stammgruppe} & 11 & \textbf{Lehrverband} & 2B2\\
+          \end{tabularx}
+        }\\%INFOS ZU GRUPPE
+        \hline
+            {
+              \begin{tabularx}{\linewidth}{F|lr}
+                \textbf{Gruppenmitglieder} & Ovidiu - Dan Bogat & ic17b501\\
+                & Barbara Eder & ic17b066\\
+                & Ferhat Doevme & ic15b046\\
+              \end{tabularx}
+            }\\
+            \hline
+            {
+              \begin{tabularx}{\linewidth}{F|}
+                \textbf{Name}\\
+              \end{tabularx}
+            }\\
+            \hline
+            {
+              \begin{tabularx}{\linewidth}{F|}
+                \textbf{Matrikelnummer}\\
+              \end{tabularx}
+            }\\
+            \hline
+            {
+              \begin{tabularx}{\linewidth}{F|}
+                \textbf{Lehverband}\\
+              \end{tabularx}
+            }\\
+            \hline
+            {
+              \begin{tabularx}{\linewidth}{F|}
+                \textbf{Punkte}\\
+              \end{tabularx}
+            }\\
+            \hline
+            
+  \end{tabularx}
+\end{center}
+
 \end{document}
