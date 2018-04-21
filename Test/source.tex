@@ -1,16 +1,22 @@
-\documentclass[12pt]{article}
+\documentclass[9pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{ngerman}
 \usepackage{geometry}
 \usepackage{tabularx}
 \newcolumntype{Z}{>{\centering\arraybackslash}X}
 \newcolumntype{Y}{>{\hsize=0.7\hsize}Z}
 \newcolumntype{T}{>{\hsize=0.3\hsize}Z}
 \newcolumntype{F}{>{\hsize=0.2\hsize}X}
+\renewcommand{\thesection}{\arabic{section}.\qquad}
+\renewcommand{\thesubsection}{\alph{subsection})}
 \geometry{
   top=5mm,
   left=5mm,
   right=5mm,
 }
 \begin{document}
+\large{
 \begin{center}
   \begin{tabularx}{\linewidth}{|Z|}
     \hline
@@ -56,6 +62,22 @@
             \hline
             
   \end{tabularx}
+\end{center}
+}
+\bigskip
+\begin{center}
+  \begin{minipage}{0.9\linewidth}
+    \section{Deadlock}
+    \subsection{Erklären Sie den unterschied zwischen einer \textsl{unterbrechbaren} und einer \textsl{nicht unterbrechbaren Ressource} ()}
+    \subsection{Erklären Sie einen \textsl{Deadlock} in eigenen Worten (12 Punkte)}
+    \subsection{Bei welchen Arten von \textsl{Ressourcen} kann ein \textsl{Deadlock} entstehen? ( Punkte)}
+  \end{minipage}
+\end{center}
+
+\begin{center}
+  \begin{minipage}{0.9\linewidth}
+    \section{Scheduling}
+  \end{minipage}
 \end{center}
 
 \end{document}
